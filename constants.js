@@ -86,12 +86,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -99,12 +99,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -112,12 +112,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -125,12 +125,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -138,15 +138,15 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       }
-    ]
+    ],
   },
   "CLIENT": {
     "displayName": "Client Code",
@@ -158,12 +158,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -171,12 +171,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -184,12 +184,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -197,12 +197,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -210,15 +210,15 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       }
-    ]
+    ],
   },
   "WORKFLOW": {
     "displayName": "WorkflowGen Code",
@@ -230,12 +230,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -243,12 +243,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -256,12 +256,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -269,12 +269,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -282,15 +282,15 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       }
-    ]
+    ],
   },
   "OPERATIONS": {
     "displayName": "Operations",
@@ -302,12 +302,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -315,12 +315,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -328,12 +328,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -341,15 +341,15 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       }
-    ]
+    ],
   },
   "COMMUNITY": {
     "displayName": "Community participation",
@@ -361,12 +361,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -374,12 +374,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1, speaking",
           "TODO: Example Behavior 2, blogging",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -387,12 +387,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -400,15 +400,15 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       }
-    ]
+    ],
   },
   "MENTORSHIP": {
     "displayName": "Mentorship",
@@ -420,12 +420,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -433,12 +433,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -446,12 +446,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -459,12 +459,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -472,15 +472,15 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       }
-    ]
+    ],
   },
   "PRACTICES": {
     "displayName": "Best Practices",
@@ -492,12 +492,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -505,12 +505,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -518,12 +518,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -531,15 +531,15 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       }
-    ]
+    ],
   },
   "COLLABORATION": {
     "displayName": "Collaboration",
@@ -551,12 +551,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -564,12 +564,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -577,12 +577,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -590,15 +590,15 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       }
-    ]
+    ],
   },
   "PROFESSIONAL_DEVELOPMENT": {
     "displayName": "Professional Development",
@@ -610,12 +610,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -623,12 +623,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -636,12 +636,12 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       },
       {
@@ -649,15 +649,15 @@ export const tracks: Tracks = {
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3"
+          "TODO: Example Behavior 3",
         ],
         "examples": [
           "TODO: Example Task 1",
           "TODO: Example Task 2",
-          "TODO: Example Task 3"
+          "TODO: Example Task 3",
         ],
       }
-    ]
+    ],
   },
 }
 
