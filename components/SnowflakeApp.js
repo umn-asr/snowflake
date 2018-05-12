@@ -52,12 +52,12 @@ const emptyState = (): SnowflakeAppState => {
     milestoneByTrack: {
       'SERVER': 0,
       'CLIENT': 0,
-      'WORKFLOW': 0,
-      'OPERATIONS': 0,
+      'INFRASTRUCTURE': 0,
+      'ANALYSIS': 0,
+      'PROJECTS': 0,
+      'PRACTICES': 0,
       'COMMUNITY': 0,
       'MENTORSHIP': 0,
-      'PRACTICES': 0,
-      'COLLABORATION': 0,
       'PROFESSIONAL_DEVELOPMENT': 0
     },
     focusedTrackId: 'SERVER'
@@ -71,12 +71,12 @@ const defaultState = (): SnowflakeAppState => {
     milestoneByTrack: {
       'SERVER': 0,
       'CLIENT': 0,
-      'WORKFLOW': 0,
-      'OPERATIONS': 0,
+      'INFRASTRUCTURE': 0,
+      'ANALYSIS': 0,
+      'PROJECTS': 0,
+      'PRACTICES': 0,
       'COMMUNITY': 0,
       'MENTORSHIP': 0,
-      'PRACTICES': 0,
-      'COLLABORATION': 0,
       'PROFESSIONAL_DEVELOPMENT': 0
     },
     focusedTrackId: 'SERVER'

@@ -1,8 +1,8 @@
 // @flow
 import * as d3 from 'd3'
 
-export type TrackId = 'SERVER' | 'CLIENT' | 'WORKFLOW' | 'OPERATIONS' |
-  'COMMUNITY' | 'MENTORSHIP' | 'PRACTICES' | 'COLLABORATION' |
+export type TrackId = 'SERVER' | 'CLIENT' | 'INFRASTRUCTURE' | 'ANALYSIS' |
+  'PROJECTS' | 'PRACTICES' | 'COMMUNITY' | 'MENTORSHIP' |
   'PROFESSIONAL_DEVELOPMENT'
 
 export type Milestone = 0 | 1 | 2 | 3 | 4
@@ -10,12 +10,12 @@ export type Milestone = 0 | 1 | 2 | 3 | 4
 export type MilestoneMap = {
   'SERVER': Milestone,
   'CLIENT': Milestone,
-  'WORKFLOW': Milestone,
-  'OPERATIONS': Milestone,
+  'INFRASTRUCTURE': Milestone,
+  'ANALYSIS': Milestone,
+  'PROJECTS': Milestone,
+  'PRACTICES': Milestone,
   'COMMUNITY': Milestone,
   'MENTORSHIP': Milestone,
-  'PRACTICES': Milestone,
-  'COLLABORATION': Milestone,
   'PROFESSIONAL_DEVELOPMENT': Milestone
 }
 export const milestones = [0, 1, 2, 3, 4]
@@ -54,45 +54,45 @@ export type Track = {
 type Tracks = {|
   'SERVER': Track,
   'CLIENT': Track,
-  'WORKFLOW': Track,
-  'OPERATIONS': Track,
+  'INFRASTRUCTURE': Track,
+  'ANALYSIS': Track,
+  'PROJECTS': Track,
+  'PRACTICES': Track,
   'COMMUNITY': Track,
   'MENTORSHIP': Track,
-  'PRACTICES': Track,
-  'COLLABORATION': Track,
   'PROFESSIONAL_DEVELOPMENT': Track
 |}
 
 export const tracks: Tracks = {
   "SERVER": {
-    "displayName": "Server Code",
+    "displayName": "Server",
     "category": "A",
-    "description": "Development of server-side applications. Ruby on Rails or standalone Ruby processes.",
+    "description": "Development of server-side code. Examples: Ruby/Rails applications, WFG processes, Drupal migrations",
     "milestones": [
       {
         "summary": "Works within current applications",
         "signals": [
-          "TODO: Example Behavior 1",
-          "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3",
+          "Makes minor changes to existing applications",
+          "Fixes bugs that are well documented, or with an experienced pair",
+          "Reuses existing code appropriately",
         ],
         "examples": [
-          "TODO: Example Task 1",
-          "TODO: Example Task 2",
-          "TODO: Example Task 3",
+          "Updates a Rails view to show existing data",
+          "Creates a new Ruby method based on an existing method",
+          "Adds a Ruby gem to an existing project",
         ],
       },
       {
         "summary": "Creates new examples of existing applications or features",
         "signals": [
-          "TODO: Example Behavior 1",
-          "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3",
+          "Delivering new features in Rails",
+          "Refactoring code to new patterns",
+          "Starts a new application from a template",
         ],
         "examples": [
-          "TODO: Example Task 1",
-          "TODO: Example Task 2",
-          "TODO: Example Task 3",
+          "Migrates a Rails application to a new major release",
+          "Delivers a simple feature request",
+          "Uses Cookiecutter to create a new Ruby application skeleton",
         ],
       },
       {
@@ -124,9 +124,9 @@ export const tracks: Tracks = {
     ],
   },
   "CLIENT": {
-    "displayName": "Client Code",
+    "displayName": "Client",
     "category": "A",
-    "description": "Develops expertise in web client technologies, such as HTML, CSS, and JavaScript",
+    "description": "Development of client-side code. Examples: JavaScript applications, CSS, Accessibility, UI, UX.",
     "milestones": [
       {
         "summary": "Improvements to existing client-side code",
@@ -182,13 +182,13 @@ export const tracks: Tracks = {
       }
     ],
   },
-  "WORKFLOW": {
-    "displayName": "WorkflowGen Code",
+  "INFRASTRUCTURE": {
+    "displayName": "Infrastructure",
     "category": "A",
-    "description": "Workflow gen description",
+    "description": "Development of infrastructure automation code. Examples: Ansible, Capistrano.",
     "milestones": [
       {
-        "summary": "Works within current applications",
+        "summary": "TODO",
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
@@ -201,7 +201,7 @@ export const tracks: Tracks = {
         ],
       },
       {
-        "summary": "Creates new examples of existing applications or features",
+        "summary": "TODO",
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
@@ -214,7 +214,7 @@ export const tracks: Tracks = {
         ],
       },
       {
-        "summary": "Implements unique features or applications with a lead",
+        "summary": "TODO",
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
@@ -227,7 +227,7 @@ export const tracks: Tracks = {
         ],
       },
       {
-        "summary": "Leads implementations of unique features or applications",
+        "summary": "TODO",
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
@@ -241,13 +241,13 @@ export const tracks: Tracks = {
       }
     ],
   },
-  "OPERATIONS": {
-    "displayName": "Operations",
+  "ANALYSIS": {
+    "displayName": "Analysis",
     "category": "B",
-    "description": "Automation of servers, monitoring, notifications",
+    "description": "Working with stakeholders to gather requirements, decomposing features in to deliverable stories.",
     "milestones": [
       {
-        "summary": "Runs existing automation, making minor modifications",
+        "summary": "TODO",
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
@@ -260,7 +260,7 @@ export const tracks: Tracks = {
         ],
       },
       {
-        "summary": "Updates existing automation, creates new automation based on existing ones",
+        "summary": "TODO",
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
@@ -273,7 +273,7 @@ export const tracks: Tracks = {
         ],
       },
       {
-        "summary": "Creating new, unique automation.",
+        "summary": "TODO",
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
@@ -286,7 +286,66 @@ export const tracks: Tracks = {
         ],
       },
       {
-        "summary": "Collaborating with OIT groups to design new automation services",
+        "summary": "TODO",
+        "signals": [
+          "TODO: Example Behavior 1",
+          "TODO: Example Behavior 2",
+          "TODO: Example Behavior 3",
+        ],
+        "examples": [
+          "TODO: Example Task 1",
+          "TODO: Example Task 2",
+          "TODO: Example Task 3",
+        ],
+      }
+    ],
+  },
+  "PROJECTS": {
+    "displayName": "Project Management",
+    "category": "B",
+    "description": "Agile project management skills, communication with stakeholders, ensuring work is delivered at the expected time.",
+    "milestones": [
+      {
+        "summary": "TODO",
+        "signals": [
+          "TODO: Example Behavior 1",
+          "TODO: Example Behavior 2",
+          "TODO: Example Behavior 3",
+        ],
+        "examples": [
+          "TODO: Example Task 1",
+          "TODO: Example Task 2",
+          "TODO: Example Task 3",
+        ],
+      },
+      {
+        "summary": "TODO",
+        "signals": [
+          "TODO: Example Behavior 1, speaking",
+          "TODO: Example Behavior 2, blogging",
+          "TODO: Example Behavior 3",
+        ],
+        "examples": [
+          "TODO: Example Task 1",
+          "TODO: Example Task 2",
+          "TODO: Example Task 3",
+        ],
+      },
+      {
+        "summary": "TODO",
+        "signals": [
+          "TODO: Example Behavior 1",
+          "TODO: Example Behavior 2",
+          "TODO: Example Behavior 3",
+        ],
+        "examples": [
+          "TODO: Example Task 1",
+          "TODO: Example Task 2",
+          "TODO: Example Task 3",
+        ],
+      },
+      {
+        "summary": "TODO",
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
@@ -303,7 +362,7 @@ export const tracks: Tracks = {
   "PRACTICES": {
     "displayName": "Best Practices",
     "category": "B",
-    "description": "TODO: Best practices description",
+    "description": "Following and improving the team's Best Practices, documentation and tools.",
     "milestones": [
       {
         "summary": "Follows established best practices",
@@ -359,72 +418,13 @@ export const tracks: Tracks = {
       }
     ],
   },
-  "COLLABORATION": {
-    "displayName": "Collaboration",
-    "category": "B",
-    "description": "Buliding relationships outside of ASR",
-    "milestones": [
-      {
-        "summary": "Works with other teams when assigned to a project",
-        "signals": [
-          "TODO: Example Behavior 1",
-          "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3",
-        ],
-        "examples": [
-          "TODO: Example Task 1",
-          "TODO: Example Task 2",
-          "TODO: Example Task 3",
-        ],
-      },
-      {
-        "summary": "Leads projects requiring collaboration with external departments",
-        "signals": [
-          "TODO: Example Behavior 1",
-          "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3",
-        ],
-        "examples": [
-          "TODO: Example Task 1",
-          "TODO: Example Task 2",
-          "TODO: Example Task 3",
-        ],
-      },
-      {
-        "summary": "Forges new collaborations by meeting with other teams and finding ways to work together",
-        "signals": [
-          "TODO: Example Behavior 1",
-          "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3",
-        ],
-        "examples": [
-          "TODO: Example Task 1",
-          "TODO: Example Task 2",
-          "TODO: Example Task 3",
-        ],
-      },
-      {
-        "summary": "Align future work for collaboration by meeting with service owners, directors, etc.",
-        "signals": [
-          "TODO: Example Behavior 1",
-          "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3",
-        ],
-        "examples": [
-          "TODO: Example Task 1",
-          "TODO: Example Task 2",
-          "TODO: Example Task 3",
-        ],
-      }
-    ],
-  },
   "COMMUNITY": {
-    "displayName": "Community participation",
+    "displayName": "Community Participation",
     "category": "C",
-    "description": "TODO: Community description",
+    "description": "Participation in IT communities, both in person and virtual.",
     "milestones": [
       {
-        "summary": "Attending UMN IT Community events",
+        "summary": "TODO",
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
@@ -437,20 +437,7 @@ export const tracks: Tracks = {
         ],
       },
       {
-        "summary": "Participation in UMN IT Community events",
-        "signals": [
-          "TODO: Example Behavior 1, speaking",
-          "TODO: Example Behavior 2, blogging",
-          "TODO: Example Behavior 3",
-        ],
-        "examples": [
-          "TODO: Example Task 1",
-          "TODO: Example Task 2",
-          "TODO: Example Task 3",
-        ],
-      },
-      {
-        "summary": "Organizing indivdual UMN IT Community events",
+        "summary": "TODO",
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
@@ -463,7 +450,20 @@ export const tracks: Tracks = {
         ],
       },
       {
-        "summary": "Creating new events or processess for new event organizers",
+        "summary": "TODO",
+        "signals": [
+          "TODO: Example Behavior 1",
+          "TODO: Example Behavior 2",
+          "TODO: Example Behavior 3",
+        ],
+        "examples": [
+          "TODO: Example Task 1",
+          "TODO: Example Task 2",
+          "TODO: Example Task 3",
+        ],
+      },
+      {
+        "summary": "TODO",
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
@@ -480,10 +480,10 @@ export const tracks: Tracks = {
   "MENTORSHIP": {
     "displayName": "Mentorship",
     "category": "C",
-    "description": "TODO: Mentorship description",
+    "description": "Provides support to colleagues, spreads knowledge, and develops the team outside formal reporting structures.",
     "milestones": [
       {
-        "summary": "Informal mentorship",
+        "summary": "TODO",
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
@@ -496,7 +496,7 @@ export const tracks: Tracks = {
         ],
       },
       {
-        "summary": "Onboarding new employees",
+        "summary": "TODO",
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
@@ -509,7 +509,7 @@ export const tracks: Tracks = {
         ],
       },
       {
-        "summary": "Formal mentorship",
+        "summary": "TODO",
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
@@ -522,7 +522,7 @@ export const tracks: Tracks = {
         ],
       },
       {
-        "summary": "Group mentorship",
+        "summary": "TODO",
         "signals": [
           "TODO: Example Behavior 1",
           "TODO: Example Behavior 2",
@@ -539,7 +539,7 @@ export const tracks: Tracks = {
   "PROFESSIONAL_DEVELOPMENT": {
     "displayName": "Professional Development",
     "category": "C",
-    "description": "TODO: Professional Development description",
+    "description": "Identifying skills you want to improve and how to do so.",
     "milestones": [
       {
         "summary": "Follows team suggestions for professional development",
