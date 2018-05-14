@@ -70,55 +70,55 @@ export const tracks: Tracks = {
     "description": "Development of server-side code. Examples: Ruby/Rails applications, WFG processes, Drupal migrations",
     "milestones": [
       {
-        "summary": "Works within current applications",
+        "summary": "Works within current applications following existing patterns",
         "signals": [
+          "Works on stories that can be delivered in a short timeframe", 
           "Makes minor changes to existing applications",
-          "Fixes bugs that are well documented, or with an experienced pair",
-          "Reuses existing code appropriately",
+          "Pair programs to fix well-documented bugs and deliver well-documented features",
         ],
         "examples": [
           "Updates a Rails view to show existing data",
-          "Creates a new Ruby method based on an existing method",
-          "Adds a Ruby gem to an existing project",
+          "Removes data from a Drupal migration",
+          "Edits a question in a WorkflowGen form",
         ],
       },
       {
-        "summary": "Creates new examples of existing applications or features",
+        "summary": "Extends current applictations with new features, creates new examples of existing applications",
         "signals": [
-          "Delivering new features in Rails",
+          "Applying lessons leaned from previous stories",
           "Refactoring code to new patterns",
           "Starts a new application from a template",
         ],
         "examples": [
           "Migrates a Rails application to a new major release",
-          "Delivers a simple feature request",
-          "Uses Cookiecutter to create a new Ruby application skeleton",
+          "Creates a new Drupal migration based on an existing migration",
+          "Adds new questions to a WorkflowGen form",
         ],
       },
       {
-        "summary": "Implements unique features or applications with a lead",
+        "summary": "Implements unique features or applications",
         "signals": [
-          "TODO: Example Behavior 1",
-          "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3",
+          "Debugging and documenting novel problems",
+          "Designing applications with new feature sets",
+          "Integrates new applications with existing ones",
         ],
         "examples": [
-          "TODO: Example Task 1",
-          "TODO: Example Task 2",
-          "TODO: Example Task 3",
+          "Creating a Drupal migration that uses a new data source",
+          "Designing a new WorkflowGen process that uses new parts of the tool",
+          "Debugging and patching a unique problem occurring in a Rails gem",
         ],
       },
       {
-        "summary": "Leads implementations of unique features or applications",
+        "summary": "Leads the design and implementation of new applications",
         "signals": [
-          "TODO: Example Behavior 1",
-          "TODO: Example Behavior 2",
-          "TODO: Example Behavior 3",
+          "Prioritization of a a list of stories needed to deliver a new application",
+          "Sees steps to get from current to desired code",
+          "Delivers code that is honed by past experience and easily changed in the future",
         ],
         "examples": [
-          "TODO: Example Task 1",
-          "TODO: Example Task 2",
-          "TODO: Example Task 3",
+          "Serving as Lead Developer for a new Rails application",
+          "Leading multi-step refactoring necessary to implement a new feature",
+          "Designing an application that can be changed to work with as-yet undeveloped code",
         ],
       }
     ],
