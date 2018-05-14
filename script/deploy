@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# script/deploy: Deploy application to run for its current checkout.
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+echo "==> Building site..."
+yarn export
+
+echo "==> Fix absolute links..."
+sed -i -e 's/\/_next/_next/g' out/index.html
+rm -f out/index.html-e
+
+echo "==> Copy code to server..."
+scp -r out/* swadm@asr-intranet-stage1.oit.umn.edu:/swadm/www/assets.asr.umn.edu/htdocs/ladder/
