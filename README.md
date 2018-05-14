@@ -31,6 +31,10 @@ Install dependencies:
 
 This will put a static version of the site in `out/`.
 
+### Deploying
+
+`script/deploy`
+
 ## Future work
 
 * Load initial data from a file, to improve flexibility.
